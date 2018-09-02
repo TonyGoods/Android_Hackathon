@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".View.Dialog.SexDialog">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@string/choose_sex"
+            android:textColor="#000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_man"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:button="@null"
+                android:drawableEnd="@android:drawable/btn_radio"
+                android:text="@string/man"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/radio_woman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:button="@null"
+                android:drawableEnd="@android:drawable/btn_radio"
+                android:text="@string/woman"
+                android:textColor="#000"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

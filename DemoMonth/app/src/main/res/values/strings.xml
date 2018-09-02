@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">DemoMonth</string>
+    <string name="username">帐号：</string>
+    <string name="password">密码：</string>
+    <string name="forgotPassword">忘记密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册新用户</string>
+    <string name="registerButton">注册</string>
+    <string name="title_text">My Demo</string>
+    <string name="i_account">账号</string>
+    <string name="i_username">昵称</string>
+    <string name="i_age">年龄</string>
+    <string name="i_sex">性别</string>
+    <string name="i_country">国家</string>
+    <string name="i_phone">电话</string>
+
+    <integer name="login_db_version">4</integer>
+    <integer name="has_login_db_version">4</integer>
+    <integer name="user_db_version">2</integer>
+    <integer name="message_db_version">1</integer>
+    <integer name="announcement_db_version">1</integer>
+    <integer name="chosenFlag_db_version">1</integer>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="quit">退出登录</string>
+    <string name="modifyInfo">修改资料</string>
+    <string name="change_username">更改昵称</string>
+    <string name="username_cant_none">昵称不能为空</string>
+    <string name="choose_sex">选择性别</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="age">年龄</string>
+    <string name="age_cant_none">年龄不能为空</string>
+    <string name="sure">确定</string>
+    <string name="phone">电话</string>
+    <string name="country">国家</string>
+    <string name="phone_cant_none">输入电话不能为空</string>
+    <string name="country_cant_none">输入国家不能为空</string>
+    <string name="friend_account">好友帐号</string>
+    <string name="friend_info">详细资料</string>
+    <string name="send_message">发消息</string>
+    <string name="make_announcement">发布公告</string>
+    <string name="announcement_title">公告标题</string>
+    <string name="announcement_content">公告内容</string>
+    <string name="btn_make">发布</string>
+
+</resources>
